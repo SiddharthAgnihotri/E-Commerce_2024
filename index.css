@@ -1,0 +1,82 @@
+#header{
+     height: 130px;
+     background-color: rgb(59, 43, 43);
+     border: 3px solid firebrick;
+     border-bottom: 0px;
+     color: azure;
+     word-spacing: 10px;
+     text-shadow: 10px 10px 8px burlywood;
+     border-end-start-radius: 20px;
+     border-end-end-radius: 20px;
+     text-align: center;
+     font-size: 2em;
+}
+#navbar{
+     height: 40px;
+     border: 2px solid black;
+     border-radius: 30px;
+     padding: 10px;
+     text-align: justify;
+}
+#navbar:hover{
+     background-color: rgb(53, 51, 56);
+     border: 3px solid firebrick;
+}
+#a1,#a2,#a3,#a4,#a5,#a6{
+     display: inline;
+     width: 20px;
+     height: 100px;
+     background-color: rgb(61, 60, 60);
+     word-spacing: 10px;
+     border-radius: 100px;
+     text-decoration: none;
+     color: aquamarine;
+}
+#a1:hover{
+     background-color: firebrick;
+     color: azure;
+}
+#a1{
+     position: relative;
+     left: 1px;
+}
+#a2:hover{
+     background-color: firebrick;
+     color: azure;
+}
+#a2{
+     position: relative;
+     left: 20px;
+}
+#a3:hover{
+     background-color: firebrick;
+     color: azure;
+}
+#a3{
+     position: relative;
+     left: 30px;
+}
+#a4:hover{
+     background-color: firebrick;
+     color: azure;
+}
+#a4{
+     position: relative;
+     left: 50px;
+}
+#a5:hover{
+     background-color: firebrick;
+     color: azure;
+}
+#a5{
+     position: relative;
+     left: 70px;
+}
+#a6:hover{
+     background-color: firebrick;
+     color: azure;
+}
+#a6{
+     position: relative;
+     left: 90px;
+}
