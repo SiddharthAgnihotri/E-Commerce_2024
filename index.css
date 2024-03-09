@@ -11,6 +11,21 @@
      text-align: center;
      font-size: 2em;
 }
+#h3{
+     animation-name: hmove;
+     animation-duration: 10s;
+     animation-timing-function: linear;
+     animation-iteration-count: 1;
+     animation-direction: reverse;
+}
+@keyframes hmove{
+     0%{
+          transform: translateX(0px);
+     }
+     100%{
+          transform: translateX(1000px);
+     }
+}
 #navbar{
      height: 40px;
      border: 2px solid black;
@@ -22,61 +37,79 @@
      background-color: rgb(53, 51, 56);
      border: 3px solid firebrick;
 }
-#a1,#a2,#a3,#a4,#a5,#a6{
+.a{
      display: inline;
      width: 20px;
      height: 100px;
      background-color: rgb(61, 60, 60);
      word-spacing: 10px;
-     border-radius: 100px;
+     border-radius: 80px;
      text-decoration: none;
+     text-align: center;
      color: aquamarine;
 }
-#a1:hover{
+.a:hover{
      background-color: firebrick;
      color: azure;
 }
-#a1{
+.a1{
      position: relative;
      left: 1px;
 }
-#a2:hover{
-     background-color: firebrick;
-     color: azure;
-}
-#a2{
+.a2{
      position: relative;
      left: 20px;
 }
-#a3:hover{
-     background-color: firebrick;
-     color: azure;
-}
-#a3{
+.a3{
      position: relative;
      left: 30px;
 }
-#a4:hover{
-     background-color: firebrick;
-     color: azure;
-}
-#a4{
+.a4{
      position: relative;
      left: 50px;
 }
-#a5:hover{
-     background-color: firebrick;
-     color: azure;
-}
-#a5{
+.a5{
      position: relative;
      left: 70px;
 }
-#a6:hover{
-     background-color: firebrick;
-     color: azure;
-}
-#a6{
+.a6{
      position: relative;
      left: 90px;
+}
+.fan{
+     width: 200px;
+     height: 200px;
+     background: rgb(61, 60, 60);
+     margin: 100px auto;
+     position: relative;
+}
+.common{
+     width: 100px;
+     height: 100px;
+     background: firebrick;
+     position: absolute;
+}
+.b1{
+     top: 0px;
+     left: 0px;
+     border-bottom-left-radius: 100px;
+     border-top-right-radius: 100px;
+}
+.b2{
+     top: 0px;
+     right: 0px;
+     border-top-left-radius: 100px;
+     border-bottom-right-radius: 100px;
+}
+.b3{
+     bottom: 0px;
+     left: 0px;
+     border-top-left-radius: 100px;
+     border-bottom-right-radius: 100px;
+}
+.b4{
+     bottom: 0px;
+     right: 0px;
+     border-bottom-left-radius: 100px;
+     border-top-right-radius: 100px;
 }
