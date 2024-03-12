@@ -1,17 +1,15 @@
 #header{
-     height: 130px;
-     background-color: rgb(59, 43, 43);
-     border: 3px solid firebrick;
-     border-bottom: 0px;
+     width: 1265px;
+     height: 50px;
+     background: #000;
+     font-size: medium;
+     border-radius: 20px;
+     border:1px solid azure;
+     text-align:  center;
      color: azure;
-     word-spacing: 10px;
-     text-shadow: 10px 10px 8px burlywood;
-     border-end-start-radius: 20px;
-     border-end-end-radius: 20px;
-     text-align: center;
-     font-size: 2em;
 }
-#h3{
+.hm{
+     padding-top: 5px;
      animation-name: hmove;
      animation-duration: 10s;
      animation-timing-function: linear;
@@ -27,89 +25,25 @@
      }
 }
 #navbar{
+     width: 1265px;
      height: 40px;
-     border: 2px solid black;
+     border: 1px solid azure;
      border-radius: 30px;
-     padding: 10px;
-     text-align: justify;
+     background:#000;
+     text-align: center;
+     margin-top: 10px;
 }
 #navbar:hover{
-     background-color: rgb(53, 51, 56);
-     border: 3px solid firebrick;
+     background-color: #000;
+     border: 1px solid azure;
 }
 .a{
-     display: inline;
-     width: 20px;
-     height: 100px;
-     background-color: rgb(61, 60, 60);
-     word-spacing: 10px;
-     border-radius: 80px;
-     text-decoration: none;
-     text-align: center;
-     color: aquamarine;
+     display: inline-block;
+     width: 200px;
+     height: 40px;
+     background-color: #000;
+     border-radius: 20px;
 }
 .a:hover{
-     background-color: firebrick;
-     color: azure;
-}
-.a1{
-     position: relative;
-     left: 1px;
-}
-.a2{
-     position: relative;
-     left: 20px;
-}
-.a3{
-     position: relative;
-     left: 30px;
-}
-.a4{
-     position: relative;
-     left: 50px;
-}
-.a5{
-     position: relative;
-     left: 70px;
-}
-.a6{
-     position: relative;
-     left: 90px;
-}
-.fan{
-     width: 200px;
-     height: 200px;
-     background: rgb(61, 60, 60);
-     margin: 100px auto;
-     position: relative;
-}
-.common{
-     width: 100px;
-     height: 100px;
-     background: firebrick;
-     position: absolute;
-}
-.b1{
-     top: 0px;
-     left: 0px;
-     border-bottom-left-radius: 100px;
-     border-top-right-radius: 100px;
-}
-.b2{
-     top: 0px;
-     right: 0px;
-     border-top-left-radius: 100px;
-     border-bottom-right-radius: 100px;
-}
-.b3{
-     bottom: 0px;
-     left: 0px;
-     border-top-left-radius: 100px;
-     border-bottom-right-radius: 100px;
-}
-.b4{
-     bottom: 0px;
-     right: 0px;
-     border-bottom-left-radius: 100px;
-     border-top-right-radius: 100px;
+     background-color: rgb(96, 132, 204);
 }
