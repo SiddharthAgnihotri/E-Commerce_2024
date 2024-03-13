@@ -1,49 +1,49 @@
+body{
+     background-color: rgb(101, 96, 96);
+}
 #header{
      width: 1265px;
      height: 50px;
-     background: #000;
-     font-size: medium;
-     border-radius: 20px;
-     border:1px solid azure;
+     background: rgb(101, 96, 96);
+     font-size: large;
      text-align:  center;
-     color: azure;
+     word-spacing: 20px;
+     text-shadow: 5px 5px #000;
+     color: #fff;
+     border:3px solid rgb(64, 67, 67);
+     border-left: 0px;
+     border-right: 0px;
+     border-radius: 20px;
 }
 .hm{
      padding-top: 5px;
-     animation-name: hmove;
-     animation-duration: 10s;
-     animation-timing-function: linear;
-     animation-iteration-count: 1;
-     animation-direction: reverse;
 }
-@keyframes hmove{
-     0%{
-          transform: translateX(0px);
-     }
-     100%{
-          transform: translateX(1000px);
-     }
-}
-#navbar{
+.topnav{
      width: 1265px;
      height: 40px;
-     border: 1px solid azure;
-     border-radius: 30px;
-     background:#000;
+     margin-top: 10px;
+}
+.common{
+     width: 100px;
+     height:40px;
+     color: #fff;
+     display: inline;
+     margin-block-start: 10px;
      text-align: center;
-     margin-top: 3px;
-}
-#navbar:hover{
-     background-color: #000;
-     border: 1px solid azure;
-}
-.a{
-     display: inline-block;
-     width: 200px;
-     height: 40px;
-     background-color: #000;
+     word-spacing:10px;
+     border: 2px solid rgb(64, 67, 67);
+     margin-top: 2px;
      border-radius: 20px;
+     padding: 5px;
 }
-.a:hover{
-     background-color: rgb(96, 132, 204);
+.common:hover{
+     background: #ffffff78;
+     font-weight: 500;
+}
+.common i{
+     padding-right: 5px;
+}
+.common a{
+     text-decoration: none;
+     color: #fff;
 }
