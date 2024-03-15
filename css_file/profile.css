@@ -18,3 +18,39 @@ body{
 .hm{
      padding-top: 5px;
 }
+.box{
+     width:700px;
+     height: 280px;
+     margin: 100px auto;
+     border-radius: 30px;
+     background: #5c5c5cd9;
+     box-shadow: inset 22px 22px 23px #52575a,inset -22px -22px 23px #7e8484;
+     padding: 20px;
+}
+.form{
+     font-family: Arial, Helvetica, sans-serif;
+     color: #000;
+}
+.form > input{
+     width: 600px;
+     border: none;
+     border-radius: 20px;
+     color: #5c5c5cd9 ;
+     padding: 10px;
+     margin:10px;
+     box-shadow: 0px -2px 1px 1px #000;
+     outline: none;
+}
+.box > div > a{
+     width: 250px;
+     height: 40px;
+     border-radius: 15px;
+     background: #a3a2a2;
+     display: inline-block;
+     text-align: center;
+     text-decoration: none;
+     color: #fff;
+     padding: 3px;
+     margin-top: 10px;
+     box-shadow: 0px -2px 1px 1px #000;
+}

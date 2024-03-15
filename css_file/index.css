@@ -30,7 +30,7 @@ body{
      display: inline;
      margin-block-start: 10px;
      text-align: center;
-     word-spacing:10px;
+     word-spacing:5px;
      border: 2px solid rgb(64, 67, 67);
      margin-top: 2px;
      border-radius: 20px;
@@ -38,7 +38,8 @@ body{
 }
 .common:hover{
      background: #ffffff78;
-     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 200;
 }
 .common i{
      padding-right: 5px;
@@ -46,5 +47,5 @@ body{
 }
 .common a{
      text-decoration: none;
-     color: #fff;
+     color: #000;
 }
