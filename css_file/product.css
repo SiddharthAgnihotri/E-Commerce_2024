@@ -18,3 +18,23 @@ body{
 .hm{
      padding-top: 5px;
 }
+.container{
+     width: 100%;
+     height: 100%;
+     background: rgb(101, 96, 96);
+     margin-top: 8px;
+}
+.box{
+     width: 220px;
+     height: 270px;
+     background: #000;
+     margin: 6px 12px;
+     display: inline-block;
+     background-image: url("/Users/siddharthagnihotri/Documents/FullStackSiteBuilder/images/1.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     align-items: center;
+     border: 1px solid rgb(92, 101, 101);
+     border-radius: 30px;
+     box-shadow: inset 22px 22px 23px #849199,inset -22px -22px 23px #4e5252;
+}
